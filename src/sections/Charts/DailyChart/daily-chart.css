@@ -1,0 +1,133 @@
+.chart-section{
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+.chart-section h1{
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--green);
+    margin: 0;
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.options{
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 230px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+
+.options button{
+    font-family: Montserrat;
+    color: var(--gray-light);
+    font-size: 17px;
+    padding: 5px 20px;
+    background-color: var(--gray-dark);
+
+    border: none;
+    outline: none;
+    border-radius: 4px;
+}
+
+.chart-area{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.options button:hover{
+    background-color: black;
+    outline: 1px solid var(--gray-dark);
+}
+
+.chart-section h2{
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--green);
+    margin: 0;
+    margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+
+    box-shadow: 0px 0px 10px 10px black;
+    position: relative;
+    z-index: 10;
+}
+
+.track-list{
+    height: 433px;
+    width: fit-content;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.shadow{
+    width : 1050px;
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+.track-list::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+}
+
+.track-list {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.track-info{
+    text-decoration: none;
+    color: rgba(254, 254, 254, 0.6);
+    width: 1000px;
+    font-size: 13px;
+    background-color: rgb(54, 54, 54);
+    padding: 4px 30px;
+    margin-bottom: 7px;
+    border-radius: 5px;
+}
+
+.track-info-l1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 4px;
+}
+
+.track-info-l1 div span{
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(254, 254, 254);
+}
+
+.track-info-l2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.track-info-l2 a{
+    text-decoration: none;
+    color: rgba(254, 254, 254, 0.6);
+    font-size: 17px;
+    padding-right: 10px;
+}

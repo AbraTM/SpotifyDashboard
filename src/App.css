@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+
+    --black : #121212;
+    --green : #1db954;
+    --gray-dark : #212121;
+    --gray-mid : #535353;
+    --gray-light : #b3b3b3;
+
+    background-color: black;
+}
+
+.app-options{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+    padding-right: 100px;
+    margin: 0;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.app-options button{
+    font-family: Montserrat;
+    color: white;
+    font-size: 20px; 
+    font-weight: 400;
+    padding: 5px 30px;
+    background-color: #212121;
+
+    border: none;
+    outline: none;
+    border-radius: 4px;
+
+    transition: 200ms ease-in-out;
+    box-shadow: -2px 2.5px 4px 0px #1db954;
+}
+
+.app-options button:hover{
+    background-color: var(--green);
+    color: #121212;
+    font-weight: 500;
+    box-shadow: none;
+}
